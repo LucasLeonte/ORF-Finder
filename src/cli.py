@@ -1,8 +1,18 @@
 #!/usr/bin/env python3
-"""Simple CLI to find ORFs in a FASTA and export JSON results."""
-import argparse
+"""Simple CLI to find ORFs in a FASTA and export JSON results.
+
+This file adds `src` to `sys.path` when run directly so imports like
+`orf_finder` work during development (running `python -m src.cli`).
+"""
+import sys
 from pathlib import Path
+import argparse
 from typing import List
+
+# Ensure `src` is on sys.path for local development runs
+ROOT = Path(__file__).resolve().parents[1]
+SRC = ROOT / "src"
+sys.path.insert(0, str(SRC))
 
 from orf_finder.parser import parse_fasta
 from orf_finder.scanner.orf_scanner import find_orfs
