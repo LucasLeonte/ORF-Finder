@@ -1,0 +1,3 @@
+pytest>=7.0
+# Optional: Biopython for advanced parsing
+# biopython>=1.80
