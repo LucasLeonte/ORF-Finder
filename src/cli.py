@@ -1,8 +1,5 @@
 #!/usr/bin/env python3
 """Simple CLI to find ORFs in a FASTA and export JSON results.
-
-This file adds `src` to `sys.path` when run directly so imports like
-`orf_finder` work during development (running `python -m src.cli`).
 """
 import sys
 from pathlib import Path
