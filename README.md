@@ -47,3 +47,5 @@ Each ORF is written as an object in a JSON array with these fields:
 
 - Escherichia coli CFT073, complete genome: https://www.ncbi.nlm.nih.gov/nuccore/AE014075.1?report=fasta
 - Amino Acid Chart: https://microbenotes.com/codon-chart-table-amino-acids/
+
+The repository was developed with assistance from GitHub Copilot.
