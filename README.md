@@ -1,6 +1,6 @@
 # ORF-Finder
 
-Minimal ORF Finder project (educational). Implements utilities to find Open Reading Frames in DNA sequences.
+Minimal ORF Finder project (educational). A Python tool that identifies all Open Reading Frames (ORFs) in a FASTA file across six reading frames, reporting only sequences longer than 100 nucleotides. The tool validates the results by translating the identified ORFs into protein sequences and saving them in a structured JSON file for further analysis.
 
 ## Quick start
 
